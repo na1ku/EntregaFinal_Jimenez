@@ -117,8 +117,3 @@ Este proyecto es una aplicación web similar a un blog, creada con Django. La ap
 3. Realiza tus cambios y commitea (`git commit -am 'Añade nueva característica'`).
 4. Sube tus cambios (`git push origin feature/nueva-caracteristica`).
 5. Abre un Pull Request.
-
-## Licencia
-
-Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
-``
