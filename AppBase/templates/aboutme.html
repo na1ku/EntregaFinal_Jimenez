@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block contenidoQCambia %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/aboutme.css' %}">
+
+    <h1>Hola! Soy Nicolás Jiménez Lamberti</h1>
+
+    <img class="center" height="797px" src="{% static 'img/fotoPerfil.jpg' %}" alt="Imagen saludo">
+
+    <body>
+    <h5>Les voy a contar sobre mi!</h5>
+    <p>Nací en 1994, soy de Buenos Aires, Argentina y amo los videojuegos!</p>
+	<p>Soy Technical Artist, actualmente trabajando en Buho Animation Studios.
+    <p>También soy Profesor y Tutor de Unreal en Image Campus, un rubro que se complementa bien con este, siempre me apasionó enseñar y transmitir conocimientos</p>
+	<p>Ahora estoy por estos caminos empezando a programar, algo que siempre me llamó la atención, ya que siempre supe bastante de computación, disfruto mucho el aprender como funcionan las cosas</p>
+	<p>Mi mayor objetivo en la vida fue trabajar en videojuegos, por eso quiero ampliar mis horizontes en nuevas prácticas dentro de este camino tan divertido.</p>
+    <p>Actualmente estoy terminando este curso que es de Python orientado al desarrollo web en Coderhouse para automatizar procesos en mi pipeline de Rigging</p>
+    <p>Si queres saber más de todo lo que hice acá les dejo mis repositorios en GitHub, saludos!!</p>
+
+    <div style="margin-top: 20px;"></div>
+    <a href="https://github.com/na1ku" target="_blank"><button>Visitar Github</button></a>
+    </div>
+
+    <div style="margin-top: 20px;">
+        {% url 'Inicio' as url %}
+        <button class="center" type="button" onclick="window.location.href='{{ url }}'">Volver a la Home</button>
+    </div>
+{% endblock contenidoQCambia %}

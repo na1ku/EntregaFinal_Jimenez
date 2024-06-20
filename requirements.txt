@@ -1,0 +1,11 @@
+asgiref==3.6.0
+Django==4.2.0
+django-bootstrap4==22.2
+django-crispy-forms==1.14.0
+Pillow==9.3.0
+psycopg2-binary==2.9.5  # Si usas PostgreSQL
+python-decouple==3.6
+sqlparse==0.4.3
+djangorestframework==3.14.0  # Si usas Django REST framework
+django-allauth==0.51.0  # Si usas allauth para autenticación social
+channels==4.0.0  # Si usas Django Channels para websockets o tareas en tiempo real
