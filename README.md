@@ -1,7 +1,8 @@
 # Blog Application
 
 Este proyecto es una aplicación web similar a un blog, creada con Django. La aplicación permite a los usuarios registrarse, iniciar sesión, ver perfiles, enviar mensajes y gestionar blogs.
-## Link al video
+
+## Link al video explicativo y recorrido por la página
 
 Este es el link al video de explicativo subido a [Youtube](https://youtu.be/iY8PNJHil3o).
 
