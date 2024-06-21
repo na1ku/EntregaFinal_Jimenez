@@ -87,33 +87,6 @@ Este es el link al video de explicativo subido a [Youtube](https://youtu.be/iY8P
 - **fecha**: DateTimeField
 - **imagen**: ImageField
 
-## Casos de Prueba
-
-1. **Registro de Usuario**
-   - **Descripción**: Verificar que un usuario puede registrarse correctamente.
-   - **Pasos**:
-     1. Navegar a `/reg-usuario`.
-     2. Rellenar el formulario de registro.
-     3. Enviar el formulario.
-   - **Resultado Esperado**: El usuario se registra y se redirige a la página de inicio.
-
-2. **Inicio de Sesión**
-   - **Descripción**: Verificar que un usuario puede iniciar sesión correctamente.
-   - **Pasos**:
-     1. Navegar a `login`.
-     2. Rellenar el formulario de inicio de sesión.
-     3. Enviar el formulario.
-   - **Resultado Esperado**: El usuario inicia sesión y se redirige a la página de inicio.
-
-3. **CRUD de Blog**
-   - **Descripción**: Verificar que un administrador puede crear, editar y eliminar un blog.
-   - **Pasos**:
-     1. Iniciar sesión como administrador.
-     2. Navegar a `/admin` y crear un nuevo blog.
-     3. Editar el blog creado.
-     4. Eliminar el blog.
-   - **Resultado Esperado**: El blog se crea, edita y elimina correctamente.
-
 ## Contribución
 
 1. Hace un fork del proyecto.
